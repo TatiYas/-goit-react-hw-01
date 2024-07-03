@@ -13,7 +13,7 @@
     transition: background-color 350ms ease-in-out, transform 350ms ease-in-out;
   }
   .listItem:hover {
-    background-color: rgb(154, 243, 173);
+    background-color: rgb(210, 216, 25);
     transform: scale(1.05);
   }
   .title {
