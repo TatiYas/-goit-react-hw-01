@@ -11,6 +11,8 @@
     font-size: 26px;
     background-color: white;
     transition: background-color 350ms ease-in-out, transform 350ms ease-in-out;
+    box-shadow: 10px 10px 17px -4px rgba(0, 0, 0, 0.75);
+    transition: transform cubic-bezier(0.075, 0.82, 0.165, 1);
   }
   .listItem:hover {
     background-color: rgb(210, 216, 25);
