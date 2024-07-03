@@ -1,4 +1,4 @@
-import style from './Profile.module.css';
+import style from './PersonProfile.module.css';
 export default function PersonProfile({ name, tag, location, image, stats }) {
   const { followers, views, likes } = stats;
   return (

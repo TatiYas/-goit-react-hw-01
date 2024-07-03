@@ -20,29 +20,29 @@
     margin-top: 12px;
     margin-bottom: 12px;
     font-size: 48px;
-    font-weight: 600;
+    font-weight: 700;
   }
   .userTag,
   .userLocation {
     margin: 0;
     font-size: 42px;
-    font-weight: 400;
+    font-weight: 500;
     color: gray;
   }
   .avatar {
-    background-color: gray;
+    background-color: rgb(44, 41, 41);
     border-radius: 50%;
     width: 300px;
     transition: transform 350ms ease-in-out, background-color 350ms ease-in-out;
   }
   .list {
     list-style-type: none;
-    background-color: rgb(223, 221, 221);
+    background-color: rgb(208, 104, 104);
     display: flex;
     justify-content: space-around;
     margin: 0;
     padding: 0;
-    border-top: 4px solid gray;
+    border-top: 4px solid rgb(42, 40, 40);
   }
   .listItem {
     display: flex;
@@ -52,8 +52,8 @@
     padding: 28px;
   }
   .listItem:not(:first-child) {
-    border-left: 4px solid gray;
+    border-left: 4px solid rgb(42, 40, 40);
   }
   .listStat {
-    font-weight: 600;
+    font-weight: 500;
   }
