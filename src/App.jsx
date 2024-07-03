@@ -1,7 +1,7 @@
 import PersonProfile from './components/PersonProfile/PersonProfile';
-import userData from './components/Data/userData.json'
-import FriendList from './components/FriendList'
-import friends from './components/FriendList'
+import userData from './components/Data/userData.json';
+import FriendList from './components/FriendList/FriendList';
+import friends from './components/Data/friends.json';
 export default App;
 function App() {
   return (
