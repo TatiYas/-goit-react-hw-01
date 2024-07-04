@@ -1,5 +1,5 @@
-import style from './Profile.modul.css';
-export default function Profile({ name, tag, location, image, stats }) {
+import style from './Profile.module.css'
+export default function Profile ({ name, tag, location, image, stats }) {
   const { followers, views, likes } = stats;
   return (
     <div className={style.card}>
