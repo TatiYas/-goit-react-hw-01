@@ -27,5 +27,4 @@ export default function Profile({ name, tag, location, image, stats }) {
         </li>
       </ul>
     </div>
-  );
-}
+  );}
